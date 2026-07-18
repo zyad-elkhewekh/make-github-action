@@ -1,7 +1,5 @@
 name: github-act
-on:
-  push:
-    branches:
+on: [push, pull_request]
 jobs:
   first-job:
     runs-on: alpine-latest
