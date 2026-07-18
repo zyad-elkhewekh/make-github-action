@@ -1,6 +1,6 @@
 name: github-act
 on:
-  pull_request:
+  commit:
     branches:
 jobs:
   first-job:
