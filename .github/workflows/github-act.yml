@@ -1,0 +1,11 @@
+name: github-act
+on:
+  pull_request:
+    branches:
+jobs:
+  first-job:
+    runs-on: alpine-latest
+    - uses: actions/checkout@v6
+  steps:
+    - name: initial
+    run: echo "action conducted successfully"
