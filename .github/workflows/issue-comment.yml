@@ -6,7 +6,7 @@ on:
 
 jobs:
   first-job:
-    if: github.event.issue.numer == 1
+    if: github.event.issue.number == 1
     runs-on: ubuntu-latest
     permissions:
       contents: write
