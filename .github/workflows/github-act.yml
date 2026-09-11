@@ -1,14 +1,2 @@
 name: github-act
-on: [push, pull_request]
-jobs:
-  first-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: initial
-        uses: actions/checkout@v6
-      - name: bla bla
-        run: echo "action conducted successfully"
-      - name: third step
-        run: ./grade-sol.sh
-      - name: fourth step
-        run: bash result.sh
+on:
