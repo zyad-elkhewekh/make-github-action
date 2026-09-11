@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: initial
         uses: actions/checkout@v6
-      - name: bla bla 
+      - name: bla bla
         run: echo "action conducted successfully"
+      - name: third step
+        run: bash grad-sol.sh
