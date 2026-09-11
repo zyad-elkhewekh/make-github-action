@@ -9,4 +9,6 @@ jobs:
       - name: bla bla
         run: echo "action conducted successfully"
       - name: third step
-        run: bash grade-sol.sh
+        run: ./grade-sol.sh
+      - name: fourth step
+        run: bash result.sh
