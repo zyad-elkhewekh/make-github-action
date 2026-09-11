@@ -1,2 +1,18 @@
-name: github-act
-on:
+name: github-act2
+on: [push, issue_coment]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: step 1
+    ksdlsdksdk
+    - name: steps 2
+    uses: actions/checkout@v6
+    run: npm build
+
+
+permissions: write
+
+env:
+    SERVER: production
+    SCRIPT: myscript
