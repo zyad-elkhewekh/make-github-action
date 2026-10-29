@@ -32,8 +32,7 @@ Let's get into more detail:
 - `workflows/` is the directory where we will define our integration workflow for any project.
 - `file.yml` is where the actual action logic/workflow sits. But first, what is YAML?
 
-> [!NOTICE]
-
+> [!NOTE]
 > This is a strict naming rule! For a workflow to be recognized and configured on GitHub, it **must** be in the exact path: `.github/workflows/file-name.yml`
 
 ## YAML and Action File Structure
@@ -43,8 +42,7 @@ Let's get into more detail:
 **YAML** (which used to stand for *Yet Another Markup Language* but now is *YAML Ain't Markup Language*) is a human-readable data format used for configuration files. Instead of using complex brackets `{}` or XML tags `<>`, 
 YAML relies on **indentation** and key-value pairs to structure data.
 
-> [!NOTICE]
-
+> [!NOTE]
 > YAML uses **spaces for indentation—never use tabs!** Incorrect spacing is the most common reason a workflow file fails to parse.
 
 ---
