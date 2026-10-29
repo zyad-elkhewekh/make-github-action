@@ -62,7 +62,5 @@ A workflow file is broken down into a few basic building blocks:
 ---
 
 > [!TIP]
-
 > always check out the official document for any syntax you are not sure of, any detail you forgot or need to understand better, or any examples you wanna follow 
-
 > you can find it at [githubactionsdocs/refrences](https://docs.github.com/en/actions/reference)
